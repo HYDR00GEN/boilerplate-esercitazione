@@ -15,7 +15,7 @@ apiRouter.post("/",(req,res)=>{
     console.log(body);
 
     return res.status(200).json({
-        test: "POST"
+        test: "mandato con POST"
     })
 })
 
